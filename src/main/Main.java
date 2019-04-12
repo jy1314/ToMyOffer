@@ -9,7 +9,11 @@
 
 package main;
 
+import java.util.Arrays;
+
 import toOffer.Fibonacci;
+import toOffer.JumpFloor;
+import toOffer.ReorderArray;
 import toOffer.ReplaceSpace;
 
 /**
@@ -32,8 +36,10 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Fibonacci fib = new Fibonacci();
-		System.out.println(fib.fibonacci(19));
+		ReorderArray reorderArray = new ReorderArray();
+		int [] array = {1,4,2,3,5};
+		reorderArray.reOrderArray(array);
+		System.out.println(Arrays.toString(array));
 	}
 
 }
