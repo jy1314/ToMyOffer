@@ -9,12 +9,17 @@
 
 package main;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 import toOffer.Fibonacci;
+import toOffer.FindContinuousSequence;
+import toOffer.FindNumbersWithSum;
+import toOffer.IsPopOrder;
 import toOffer.JumpFloor;
 import toOffer.ReorderArray;
 import toOffer.ReplaceSpace;
+import toOffer.VerifySquenceOfBST;
 
 /**
  * @title:Main.java
@@ -36,10 +41,9 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ReorderArray reorderArray = new ReorderArray();
-		int [] array = {1,4,2,3,5};
-		reorderArray.reOrderArray(array);
-		System.out.println(Arrays.toString(array));
+		VerifySquenceOfBST vb = new VerifySquenceOfBST();
+		int a[] = {4,8,6,12,16,14,10};
+		System.out.println(vb.VerifySquence(a));
 	}
 
 }

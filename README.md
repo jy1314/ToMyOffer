@@ -17,3 +17,11 @@
 13|树的子结构|SubTree
 14|跳台阶|JumpFloor
 15|找数字中只出现一次的数字|FindNumsAppearOnce
+16|和为s的连续正数序列|FindContinuousSequence 
+17|和为s的两个数字|FindNumbersWithSum
+18|复杂链表的复制|CloneList
+19|顺时针打印矩阵|PrintMatrix
+20|包含min函数的栈|MinStack
+21|栈的压入、弹出序列|IsPopOrder
+22|从上往下打印二叉树|PrintTree
+23|二叉搜索树的后序遍历序列|VerifySquenceOfBST
