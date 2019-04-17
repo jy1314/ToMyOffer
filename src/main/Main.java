@@ -15,11 +15,18 @@ import java.util.Arrays;
 import toOffer.Fibonacci;
 import toOffer.FindContinuousSequence;
 import toOffer.FindNumbersWithSum;
+import toOffer.GetLeastNumbers;
 import toOffer.IsPopOrder;
 import toOffer.JumpFloor;
+import toOffer.MaxSumOfSubArray;
+import toOffer.MoreThanHalfNum;
+import toOffer.NumberOf1Between1AndN;
+import toOffer.Permutation;
 import toOffer.ReorderArray;
 import toOffer.ReplaceSpace;
 import toOffer.VerifySquenceOfBST;
+import util.MaxHeap;
+import util.MinHeap;
 
 /**
  * @title:Main.java
@@ -38,12 +45,13 @@ public class Main {
 	 * @date: 2019年4月11日 上午11:56:24
 	 * @param args
 	 * @throws: 
+	 * 1100100
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		VerifySquenceOfBST vb = new VerifySquenceOfBST();
-		int a[] = {4,8,6,12,16,14,10};
-		System.out.println(vb.VerifySquence(a));
+		NumberOf1Between1AndN m1 = new NumberOf1Between1AndN();
+		System.out.println(m1.numberOf1Between1AndN(100));
+		
 	}
 
 }
