@@ -9,6 +9,7 @@
 
 package main;
 
+import java.lang.ref.SoftReference;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -19,6 +20,7 @@ import toOffer.GetLeastNumbers;
 import toOffer.IsPopOrder;
 import toOffer.JumpFloor;
 import toOffer.MaxSumOfSubArray;
+import toOffer.MinNumbers;
 import toOffer.MoreThanHalfNum;
 import toOffer.NumberOf1Between1AndN;
 import toOffer.Permutation;
@@ -49,8 +51,12 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		NumberOf1Between1AndN m1 = new NumberOf1Between1AndN();
-		System.out.println(m1.numberOf1Between1AndN(100));
+		
+		String str = new String("ABC");
+		SoftReference<String> softr = new SoftReference<String>(str);
+		System.gc();
+		int a = Integer.MIN_VALUE;
+		System.out.println(a);
 		
 	}
 
