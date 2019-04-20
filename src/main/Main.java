@@ -12,11 +12,13 @@ package main;
 import java.lang.ref.SoftReference;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 
 import toOffer.Fibonacci;
 import toOffer.FindContinuousSequence;
 import toOffer.FindNumbersWithSum;
 import toOffer.GetLeastNumbers;
+import toOffer.InversePairs;
 import toOffer.IsPopOrder;
 import toOffer.JumpFloor;
 import toOffer.MaxSumOfSubArray;
@@ -52,12 +54,13 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		String str = new String("ABC");
-		SoftReference<String> softr = new SoftReference<String>(str);
-		System.gc();
-		int a = Integer.MIN_VALUE;
-		System.out.println(a);
+		
+		HashMap<Integer, String> map = new HashMap<>();
+		map.put(1, "123");
+		map.get(1);
+		Integer a = 15;
+		System.out.println(a.hashCode());
 		
 	}
-
+	
 }
