@@ -28,6 +28,7 @@ import toOffer.NumberOf1Between1AndN;
 import toOffer.Permutation;
 import toOffer.ReorderArray;
 import toOffer.ReplaceSpace;
+import toOffer.ReverseSentence;
 import toOffer.VerifySquenceOfBST;
 import util.MaxHeap;
 import util.MinHeap;
@@ -53,13 +54,9 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		
-		HashMap<Integer, String> map = new HashMap<>();
-		map.put(1, "123");
-		map.get(1);
-		Integer a = 15;
-		System.out.println(a.hashCode());
+		ReverseSentence rs = new ReverseSentence();
+		String string = "  ";
+		System.out.println("|"+rs.reverseSentence(string)+"|");
 		
 	}
 	
