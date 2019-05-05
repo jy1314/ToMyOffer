@@ -19,8 +19,10 @@ import toOffer.FindContinuousSequence;
 import toOffer.FindNumbersWithSum;
 import toOffer.GetLeastNumbers;
 import toOffer.InversePairs;
+import toOffer.IsContinuous;
 import toOffer.IsPopOrder;
 import toOffer.JumpFloor;
+import toOffer.LeftRotateString;
 import toOffer.MaxSumOfSubArray;
 import toOffer.MinNumbers;
 import toOffer.MoreThanHalfNum;
@@ -54,9 +56,9 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ReverseSentence rs = new ReverseSentence();
-		String string = "  ";
-		System.out.println("|"+rs.reverseSentence(string)+"|");
+		IsContinuous isc = new IsContinuous();
+		int numbers[] = {2,3,5,0,0};
+		System.out.println(isc.isContinuous(numbers));
 		
 	}
 	
