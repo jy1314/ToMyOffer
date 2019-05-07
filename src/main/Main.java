@@ -14,6 +14,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
+import sort.HeapSort;
+import sort.MergeSort;
+import sort.QuickSort;
 import toOffer.Fibonacci;
 import toOffer.FindContinuousSequence;
 import toOffer.FindNumbersWithSum;
@@ -22,6 +25,7 @@ import toOffer.InversePairs;
 import toOffer.IsContinuous;
 import toOffer.IsPopOrder;
 import toOffer.JumpFloor;
+import toOffer.LastRemaining;
 import toOffer.LeftRotateString;
 import toOffer.MaxSumOfSubArray;
 import toOffer.MinNumbers;
@@ -56,10 +60,18 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		IsContinuous isc = new IsContinuous();
-		int numbers[] = {2,3,5,0,0};
-		System.out.println(isc.isContinuous(numbers));
+		int a[] = {1,4,3,5,2,8,6,9,7,0,0};
+		printnums(a);
+		MergeSort.mergeSort(a);
+		printnums(a);
 		
 	}
+	public static void printnums(int []nums) {
+		for(int i=0;i<nums.length;i++) {
+			System.out.print(nums[i] + " ");
+		}
+		System.out.println("");
+	}
+	
 	
 }
